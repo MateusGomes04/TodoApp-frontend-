@@ -1,6 +1,6 @@
 import React from "react";
 import Grid from '../template/grid';
-import IconButtun from "../template/iconButtun";
+import IconButton from "../template/iconButton";
 
 export default props => (
     <div role='form' className="todoForm">
@@ -14,7 +14,7 @@ export default props => (
 
         </Grid>
         <Grid cols='12 3 2'>
-            <IconButtun style='primary' icon='plus'></IconButtun>
+            <IconButton style='primary' icon='plus'></IconButton>
         </Grid>
     </div>
 )
